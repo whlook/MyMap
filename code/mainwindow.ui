@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>935</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="pic">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>80</y>
+      <width>801</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>7</y>
+      <width>62</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string>地图指南</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>1500</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="mysources.qrc">
+      <normaloff>:/new/icon/map.png</normaloff>:/new/icon/map.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>7</y>
+      <width>63</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>联系手册</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>1500</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="mysources.qrc">
+      <normaloff>:/new/icon/alt.png</normaloff>:/new/icon/alt.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>51</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1002</x>
+      <y>7</y>
+      <width>62</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>学校百科</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>1500</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="mysources.qrc">
+      <normaloff>:/new/icon/school.png</normaloff>:/new/icon/school.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>1480</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>1212</x>
+      <y>7</y>
+      <width>67</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>关于该软件</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>1500</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="mysources.qrc">
+      <normaloff>:/new/icon/logo.png</normaloff>:/new/icon/logo.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>55</width>
+      <height>44</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>30</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>21</y>
+      <width>525</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>出发点：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="minimumSize">
+        <size>
+         <width>110</width>
+         <height>0</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>东门</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼10号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼9号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼8号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>图书馆</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼11号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>足球场（一）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>中国银行ATM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>大学生活动中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>理发店</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>艺术设计学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>民族餐厅</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>便利店</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼1号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼2号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>浴室</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>生活区大门</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球场（一）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳池</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>乒乓羽毛球场</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>菜鸟驿站</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼5号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼4号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼3号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼10号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>速来宝快递处</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3、4号餐厅</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼9号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼6号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼7号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼8号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1、2号餐厅</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球场（二）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>足球场（二）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>工程训练中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>开水房（二）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>开水房（一）</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>目的地：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="minimumSize">
+        <size>
+         <width>110</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>110</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>东门</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼10号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼9号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼8号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>图书馆</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>教学楼11号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>足球场（一）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>中国银行ATM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>大学生活动中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>理发店</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>艺术设计学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>民族餐厅</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>便利店</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼1号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼2号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>浴室</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>生活区大门</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球场（一）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳池</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>乒乓羽毛球场</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>菜鸟驿站</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼5号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼4号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼3号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼10号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>速来宝快递处</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3、4号餐厅</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼9号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼6号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼7号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>宿舍楼8号</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1、2号餐厅</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球场（二）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>足球场（二）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>工程训练中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>NULL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>开水房（二）</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>开水房（一）</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>GO!</string>
+       </property>
+       <property name="icon">
+        <iconset resource="mysources.qrc">
+         <normaloff>:/new/icon/search.png</normaloff>:/new/icon/search.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>清除路线</string>
+       </property>
+       <property name="icon">
+        <iconset resource="mysources.qrc">
+         <normaloff>:/new/icon/cancel.png</normaloff>:/new/icon/cancel.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>pic</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>line</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mysources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
