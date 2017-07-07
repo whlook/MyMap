@@ -1,3 +1,9 @@
-# Ò»¸ö»ùÓÚQtµÄĞ¡ÏîÄ¿£¬Á·Ï°Ö®ÓÃ¡£</br>
-## Ö»ÉÏ´«ÁËºËĞÄ´úÂë£¬ÆäËû×ÊÔ´»¹Î´ÉÏ´«</br>
-[Ïà¹ØBLOG](http://cnblogs.com/whlook/p/6533642.html)
+# ä¸€ä¸ªåŸºäºQtçš„å°é¡¹ç›®ï¼Œç»ƒä¹ ä¹‹ç”¨ã€‚</br>
+## åªä¸Šä¼ äº†æ ¸å¿ƒä»£ç ï¼Œå…¶ä»–èµ„æºè¿˜æœªä¸Šä¼ </br>
+[ç›¸å…³BLOG](http://cnblogs.com/whlook/p/6533642.html)
+
+### ç›¸å…³æˆªå›¾
+
+![test](https://github.com/whlook/MyMap/imgs/test.JPG)
+
+![annotation](https://github.com/whlook/MyMap/imgs/annotation.JPG)
