@@ -4,6 +4,6 @@
 
 ### 相关截图
 
-![test](https://github.com/whlook/MyMap/imgs/test.JPG)
+![test](https://github.com/whlook/MyMap/tree/master/imgs/test.JPG)
 
-![annotation](https://github.com/whlook/MyMap/imgs/annotation.JPG)
+![annotation](https://github.com/whlook/MyMap/tree/master/imgs/annotation.JPG)
