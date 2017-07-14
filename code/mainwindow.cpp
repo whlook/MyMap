@@ -67,45 +67,45 @@ MainWindow::MainWindow(QWidget *parent) :
     point.push_back(Point(219,467));
     point.push_back(Point(717,523));
 
-    name.push_back("¶«ÃÅ");
-    name.push_back("½ÌÑ§Â¥10");
-    name.push_back("½ÌÑ§Â¥9");
-    name.push_back("½ÌÑ§Â¥8");
-    name.push_back("Í¼Êé¹Ý");
-    name.push_back("½ÌÑ§Â¥11");
-    name.push_back("×ãÇò³¡(Ò»)");
-    name.push_back("ÖÐ¹úÒøÐÐATM");
-    name.push_back("´óÑ§Éú»î¶¯ÖÐÐÄ");
-    name.push_back("Àí·¢µê");
-    name.push_back("ÒÕÊõÉè¼ÆÑ§Ôº");
-    name.push_back("Ãñ×å²ÍÌü");
-    name.push_back("±ãÀûµê");
-    name.push_back("ËÞÉáÂ¥1ºÅ");
-    name.push_back("ËÞÉáÂ¥2ºÅ");
-    name.push_back("Ô¡ÊÒ");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½Ñ§Â¥10");
+    name.push_back("ï¿½ï¿½Ñ§Â¥9");
+    name.push_back("ï¿½ï¿½Ñ§Â¥8");
+    name.push_back("Í¼ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½Ñ§Â¥11");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½(Ò»)");
+    name.push_back("ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ï¿½ATM");
+    name.push_back("ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½î¶¯ï¿½ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§Ôº");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥1ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥2ï¿½ï¿½");
+    name.push_back("Ô¡ï¿½ï¿½");
     name.push_back("Ð£Ò½Ôº");    // 16
-    name.push_back("Éú»îÇø´óÃÅ");
-    name.push_back("ÀºÇò³¡(Ò»)");
-    name.push_back("ÓÎÓ¾³Ø");
-    name.push_back("Æ¹ÅÒÓðÃ«Çò³¡");
-    name.push_back("²ËÄñæäÕ¾");
-    name.push_back("ËÞÉáÂ¥5ºÅ");
-    name.push_back("ËÞÉáÂ¥4ºÅ");
-    name.push_back("ËÞÉáÂ¥3ºÅ");
-    name.push_back("ËÞÉáÂ¥10ºÅ");
-    name.push_back("ËÙÀ´±¦¿ìµÝ´¦");
-    name.push_back("3¡¢4ºÅ²ÍÌü");
-    name.push_back("ËÞÉáÂ¥9ºÅ");
-    name.push_back("ËÞÉáÂ¥6ºÅ");
-    name.push_back("ËÞÉáÂ¥7ºÅ");
-    name.push_back("ËÞÉáÂ¥8ºÅ");
-    name.push_back("1¡¢2ºÅ²ÍÌü");
-    name.push_back("ÀºÇò³¡(¶þ)");
-    name.push_back("×ãÇò³¡(¶þ)");
-    name.push_back("¹¤³ÌÑµÁ·ÖÐÐÄ");
-    name.push_back("ÉýÆì»¨Ì³");  // 36
-    name.push_back("¿ªË®·¿(¶þ)");
-    name.push_back("¿ªË®·¿(Ò»)");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½(Ò»)");
+    name.push_back("ï¿½ï¿½Ó¾ï¿½ï¿½");
+    name.push_back("Æ¹ï¿½ï¿½ï¿½ï¿½Ã«ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¾");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥5ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥4ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥3ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥10ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½");
+    name.push_back("3ï¿½ï¿½4ï¿½Å²ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥9ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥6ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥7ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Â¥8ï¿½ï¿½");
+    name.push_back("1ï¿½ï¿½2ï¿½Å²ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)");
+    name.push_back("ï¿½ï¿½ï¿½ï¿½Ñµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+    name.push_back("ï¿½ï¿½ï¿½ì»¨Ì³");  // 36
+    name.push_back("ï¿½ï¿½Ë®ï¿½ï¿½(ï¿½ï¿½)");
+    name.push_back("ï¿½ï¿½Ë®ï¿½ï¿½(Ò»)");
 
 
     file_i.open("road.ini",std::ios::in);  // load road nodes info
@@ -798,8 +798,7 @@ e;
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *   These under codes construct a tool to get the road nodes infomation , they are        *
- *   very important ! they taked me lots of time and i am very happy that i                *
- *   had written them ! they should be stored in my code library .Dont remove them!        *
+ *   very important . Dont remove them!                                                    *
  *   <2016-10-29><wuhui>                                                                   *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
@@ -931,7 +930,9 @@ e;
  *   but dont remove them .
  *
  *
- * void MainWindow::on_pushButton_6_clicked()
+ * *******************************************************************************/
+ /*
+ void MainWindow::on_pushButton_6_clicked()
 {
     //std::vector<Road_node> roadTemp;
 
@@ -1007,6 +1008,6 @@ void MainWindow::on_pushButton_6_clicked()
     palete.setColor(QPalette::Background,Qt::white);
     msg->setPalette(palete);
 
-    msg->setText("\n  ¸ÐÐ»Ê¹ÓÃ My University !\t\t\n\n  °æ±¾: test 1.0\t\t\n");
+    msg->setText("\n  ï¿½ï¿½Ð»Ê¹ï¿½ï¿½ My University !\t\t\n\n  ï¿½æ±¾: test 1.0\t\t\n");
     msg->exec();
 }
